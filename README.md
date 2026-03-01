@@ -28,12 +28,12 @@ The evaluation framework includes agreement rates, Cohen's Kappa, McNemar's test
 │   ├── comments.csv        # 110,000 Stack Overflow comments
 │   ├── posts_answers.csv   # 50,853 posts/answers
 │   └── users.csv           # 54,836 user profiles
-├── Thesis/
-│   ├── Thesis_Moutzikos.pdf    # Full thesis document (Greek + English abstract)│  
-│   └── thesis.tex              # Thesis in tex format
 ├── Code/
 │   ├── Code.ipynb                    # Main analysis notebook
 │   └── kaggle-dataset-query.ipynb    # Extraction code 
+├── Thesis/
+│   ├── Thesis_Moutzikos.pdf    # Full thesis document (Greek + English abstract)│  
+│   └── thesis.tex              # Thesis in tex format
 ├── requirements.txt        # Python dependencies
 └── README.md
 ```
