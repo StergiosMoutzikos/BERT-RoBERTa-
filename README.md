@@ -116,35 +116,6 @@ After preprocessing (HTML removal, URL stripping, emoji handling, deduplication)
 
 ---
 
-##  Installation & Usage
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
-### 2. Create a virtual environment (recommended)
-```bash
-python -m venv venv
-source venv/bin/activate        # Linux/macOS
-venv\Scripts\activate           # Windows
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Launch the notebook
-```bash
-jupyter notebook Inf2021149_Emotional_Analysis.ipynb
-```
-
->  **GPU recommended.** Running both BERT and RoBERTa over 108K samples is computationally intensive. The notebook was originally run on Kaggle with GPU acceleration. Without a GPU, inference will be significantly slower.
-
----
-
 ##  Requirements
 
 ```
